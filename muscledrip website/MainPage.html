@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- -------Font for Icon on NavBar------------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">      
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">          
+    <link rel="stylesheet" href="MainPage.css">
+</head>
+<body>
+    <script src="MainPage.js"></script>
+    <!-- ------------------Navigation Bar Start-------------------------- -->
+    <nav> 
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="Muscle-menu/muscleMenu.html">EXPLORE</a></li>
+            <li><a href="Muscle-menu/exercise-pages/ask-us.html">ASK</a></li>
+            <li><a href="Muscle-menu/exercise-pages/contact-us.html">CONTACT</a></li>
+            <li><a href="Muscle-menu/exercise-pages/about-us.html">ABOUT</a></li>
+        </ul>
+        <ul>
+            <li class="dancingFont"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24" fill="#000"><path d="m826-585-56-56 30-31-128-128-31 30-57-57 30-31q23-23 57-22.5t57 23.5l129 129q23 23 23 56.5T857-615l-31 30ZM346-104q-23 23-56.5 23T233-104L104-233q-23-23-23-56.5t23-56.5l30-30 57 57-31 30 129 129 30-31 57 57-30 30Zm397-336 57-57-303-303-57 57 303 303ZM463-160l57-58-302-302-58 57 303 303Zm-6-234 110-109-64-64-109 110 63 63Zm63 290q-23 23-57 23t-57-23L104-406q-23-23-23-57t23-57l57-57q23-23 56.5-23t56.5 23l63 63 110-110-63-62q-23-23-23-57t23-57l57-57q23-23 56.5-23t56.5 23l303 303q23 23 23 56.5T857-441l-57 57q-23 23-57 23t-57-23l-62-63-110 110 63 63q23 23 23 56.5T577-161l-57 57Z"/></svg>&nbsp;&nbsp;MuscleDrip</a></li>
+            <li class="hideOnMobile"><a href="Muscle-menu/muscleMenu.html">EXPLORE</a></li>
+            <li class="hideOnMobile"><a href="Muscle-menu/exercise-pages/ask-us.html">ASK</a></li>
+            <li class="hideOnMobile"><a href="Muscle-menu/exercise-pages/contact-us.html">CONTACT</a></li>
+            <li class="hideOnMobile"><a href="Muscle-menu/exercise-pages/about-us.html">ABOUT</a></li>
+            <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="26px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <!-- -----------------------Navigation bar Ends------------------------- -->
+    <div class="intro">
+  <h1>Find your <span class="rotating-word">Muscle</span>.</h1>
+  <p>All of that at only one place.<br>We provide all the necessary information to guide you through what you can achieve, if you are consistant enough.<br>Find the right exercises for you, just here.</p>
+  <a href="Muscle-menu/muscleMenu.html" class="button">EXPLORE EXERCISES&#8594;</a>
+</div>
+<!-- ---------------------- Testimonials Section ------------------------ -->
+<div class="testimonial">
+    <div class="heading">PEOPLE WHO BELIEVED!</div>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <p>I love their work. As a student I am unable to manage my utilities but they made it easier to manage time.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <br><img src="photos/chris_pratt.jpg" alt="Rick Grimes">
+                    <h3>Rick Grimes</h3>
+                </div>
+            </div>
+            <div class="col-3">
+                <p>Configuration & adding new users with auto SF hierarchy is super easy, and articles are of great help.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <br><img src="photos/sara_safari.jpg" alt="Wednesday Adams">
+                    <h3>Wednesday Adams</h3>
+                </div>
+            </div>
+            <div class="col-3">
+                <p>You know who I am. Capturing additional information from events like the type of the meeting etc.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <br><img src="photos/Saket-Gokhale.jpg" alt="Robert Downey Jr.">
+                    <h3>Robert Downey Jr.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------------3rd pallete--------------- -->
+<section class="fixed-image-section">
+    <div class="overlay-content">
+     <h2>Stay Strong, Stay Focused</h2>
+     <p>Your journey to greatness starts here.</p>
+     <a href="Muscle-menu/muscleMenu.html" class="button">FIND YOUR EXERCISE</a>
+  </div>
+</section>
+<!-- ----------------footer---------------------- -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section about">
+      <h3>MuscleDrip</h3>
+      <p>Your one-stop destination for building strength, discipline, and a focused lifestyle.</p>
+    </div>
+    
+    <div class="footer-section links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="Muscle-menu/muscleMenu.html">Explore</a></li>
+        <li><a href="Muscle-menu/exercise-pages/ask-us.html">Ask</a></li>
+        <li><a href="Muscle-menu/exercise-pages/contact-us.html">Contact</a></li>
+        <li><a href="Muscle-menu/exercise-pages/about-us.html">About</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section contact">
+      <h4>Contact</h4>
+      <p>Email: info@muscledrip.com</p>
+      <p>Phone: +91 98765 43210</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 MuscleDrip. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
